@@ -16,8 +16,8 @@ FROM openjdk
 
 #maintainer 
 MAINTAINER dstar55@yahoo.com
-#expose port 8081
-EXPOSE 8081
+#expose port 8080
+EXPOSE 8080
 
 #default command
 CMD java -jar /data/hello-world-0.1.0.jar
